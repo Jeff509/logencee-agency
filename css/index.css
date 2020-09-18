@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/**
+ * Reset
+ */
+@import "reset.css";
+
+/**
+ * Home
+ */
+
+  #app {
+    margin: 0 auto;
+    background: url("../assets/img/home_agency.jpg") no-repeat;
+    background-size: cover;
+    height: 3100px;
+  }
+
+  #app header {
+    background: url("../assets/img/banner-lion.jpg") no-repeat;
+    background-size: cover;
+    height: 732px;
+  }
+
+  .header--logo {
+    padding: 34px 0px 0px 50px ;
+  }
+
+  .header--logo h1 {
+    letter-spacing: 1px;
+    font-family: 'Arial';
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .header--logo h2 {
+    font-size: 30px;
+    right: 30px;
+    color: black;
+    text-align: center;
+    margin-top: ;
+  }
+
+  .header--logo h3 {
+    color: black;
+    text-align: center;
+    margin-top: 400px;
+  }
+
+  .navbar {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .col-xl-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-top: 400px;
+  }
+
+   .col-lg-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-xl-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  
